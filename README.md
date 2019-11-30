@@ -17,3 +17,6 @@ Customization is largely about eliminating multiple packages and creating and in
 This project aims to bring a portion of the population closer to a service as essential as the Internet and the various services offered by it.
 This access can be done through a custom Linux operating system and located at strategic points to function as an internet kiosk.
 In addition to its functionality as an Internet Kiosk, this system can be used with advertising, warnings, still images (photos) and video streaming as application terminals and many other applications.
+
+
+# Please read the file "Internet Kiosk with Debian 5.docx" for intructions!
