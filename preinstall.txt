@@ -1,0 +1,32 @@
+1 - System used
+The system used was GNU / Linux Debian 5 (Lenny), for its renowned robustness, security and reliability.
+
+2 - SSH
+# apt-get install ssh
+
+3 - Removal of packages: cups, evolution and nautilus.
+# apt-get remove cups evolution nautilus
+
+After removing these packages, you will be asked if you do not want to remove the remaining packages from the system with the command: apt-get autoremove, do not do this as this will remove Gnome from the system.
+
+4 - Installation of java and flashplayer packages
+Add to /etc/apt/sources.list the repository
+deb http://www.debian-multimedia.org lenny main
+# aptitude install restricted-extras
+
+5 - Creating 2 User Accounts
+Admin account - user with administrative privileges.
+User Account - kiosk user - no terminal and no privileges.
+
+6 - Desktop Icon Blocking
+Go to System> Administration> Login Window> General tab> under Default Section, switch to Gnome interface in safe mode.
+
+- Lock keyboard shortcuts (ctrl + alt + backspace) among others.
+# nano /etc/X11/xorg.conf
+
+Include the lines;
+Section "ServerFlags"
+Option "DontVTSwitch" "true"
+Option "DontZap" "true"
+Option "DontZoom" "true"
+EndSection
