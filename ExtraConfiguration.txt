@@ -1,0 +1,29 @@
+Iceweasel Browser Plugin Installation (Firefox)
+No Script Plugin: Plugin to block unauthorized browser scripts.
+Install the add-in No Script in the browser.
+Set the plugin to not show when blocking content.
+  R-kiosk plugin (the soul of the kiosk): Plug-in to make Iceweasel full screen and block the browser menu bar.
+
+IMPORTANT: The only way to unlock the R-kiosk plugin is with the command:
+firefox -safe-mode
+
+Put the menu bar in the browser, configure the file /etc/iceweasel/pref/iceweasel.js
+Include line:
+pref (“kiosk.navbar”, true);
+
+
+4.11 - Iceweasel Browser Settings (Firefox)
+
+• Open Firefox in Edit> Preferences, on the Main tab, uncheck open the downloads window when receiving a file. Change download destination to / home / unb34 / Documents.
+• Open Firefox in Edit> Preferences, under Tabs mark always display the tab bar.
+• Open Firefox in Edit> Preferences, under Privacy uncheck, keep history, memorize data provided to forms and search fields, memorize downloads and ask before clearing personal data, mark clear personal data when exiting Firefox.
+• Open Firefox in Edit> Preferences, on the Security tab uncheck: Remember website passwords.
+• Open Firefox in Edit> Preferences, the Advanced tab go to updates and disable all Firefox update options, installed add-ons and search engines.
+
+4.12 - Getting Linux Debian 5 to boot always loads the user's desktop without Administrative privileges.
+In System> Administration> login window> security> change to always log in to the user without administrative privileges.
+
+4.13 - Removing Gnome Interface Panel.
+- Remove Full Upper Gnome Panel
+- Remove from the bottom Gnome Panel, the workspace control and the trash.
+  Important: To access the Gnome Interface menu and consequently the Terminal, right click on the Gnome Panel and add the menu, DON'T FORGET TO TAKE THE MENU OFF AS YOU FINISH THE SERVICE.
