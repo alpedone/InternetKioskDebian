@@ -1,0 +1,1 @@
+This Project consists of customization through routine management scripts in the Debian 5 Linux Operating System, to be used as an Internet Kiosk, available to the general public.
