@@ -9,7 +9,7 @@ The system used was GNU / Linux Debian 5 (Lenny), for its renowned robustness, s
 
 After removing these packages, you will be asked if you do not want to remove the remaining packages from the system with the command: apt-get autoremove, do not do this as this will remove Gnome from the system.
 
-4 - Installation of java and flashplayer packages
+4 - Installation of java and flashplayer packages - obsolete
 Add to /etc/apt/sources.list the repository
 deb http://www.debian-multimedia.org lenny main
 # aptitude install restricted-extras
