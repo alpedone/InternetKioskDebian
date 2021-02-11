@@ -1,6 +1,6 @@
 #!/bin/bash
 xsetroot -solid white &
-# firfox em modo perpétuo
+# firefox em modo perpetuo
 while true ; do
 #/usr/bin/firefox-3.0
 /usr/bin/iceweasel
