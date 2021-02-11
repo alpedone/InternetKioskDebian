@@ -4,7 +4,7 @@
 
 In some places like schools, colleges, airports, malls, cafes, hotels, and many others, there is a demand to stay connected. With this demand comes the concept of Internet Kiosks.
 The Internet Kiosk is a renowned security and stability Debian 5 Linux-based system, it is a lightweight, robust, high-security, modular, lockable system that offers complete security and anonymity to the user, and allows Internet access only using the free version of the Mozilla Firefox (Iceweasel) browser to browse the internet and eventually other applications. The system does not save browsing histories or passwords, as well as content control and high level of reliability, guaranteed by the latest security means.
-In this project I will demonstrate how to prepare and customize the Debian 5 Linux Operating System, for use on publicly available computers, “Internet Kiosks”!
+In this project I will demonstrate how to prepare and customize the Debian 5 Linux Operating System, for use on publicly available computers, “Internet Kiosks”.
 
 ## 2. BACKGROUND
 
